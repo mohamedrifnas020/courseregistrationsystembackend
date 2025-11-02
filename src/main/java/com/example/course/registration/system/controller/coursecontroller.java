@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:5500")
+@CrossOrigin("https://mohamedrifnas020.github.io/courseregistrationsystemfrontend")
 
 public class coursecontroller {
     @Autowired
