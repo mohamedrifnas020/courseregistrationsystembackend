@@ -14,7 +14,7 @@ public class webconfig{
             @Override
             public void addCorsMappings(CorsRegistry registry){
                registry.addMapping("/**").allowedOrigins(
-                       "https://mohamedrifnas020.github.io/courseregistrationsystemfrontend"
+                       "*"
 
                ).allowedMethods("GET","POST","PUT","DELETE","OPTIONS").allowedHeaders("*");
             }
