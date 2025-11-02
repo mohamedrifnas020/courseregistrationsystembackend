@@ -26,4 +26,36 @@ public class course {
     public course(){
 
     }
+
+    public String getCourseid() {
+        return courseid;
+    }
+
+    public String getCoursename() {
+        return coursename;
+    }
+
+    public String getTrainer() {
+        return trainer;
+    }
+
+    public int getDurationinweeks() {
+        return durationinweeks;
+    }
+
+    public void setCourseid(String courseid) {
+        this.courseid = courseid;
+    }
+
+    public void setCoursename(String coursename) {
+        this.coursename = coursename;
+    }
+
+    public void setTrainer(String trainer) {
+        this.trainer = trainer;
+    }
+
+    public void setDurationinweeks(int durationinweeks) {
+        this.durationinweeks = durationinweeks;
+    }
 }

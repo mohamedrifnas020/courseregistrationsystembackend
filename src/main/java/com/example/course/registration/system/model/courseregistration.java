@@ -28,4 +28,36 @@ public class courseregistration {
     public courseregistration(){
         
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmailid() {
+        return emailid;
+    }
+
+    public String getCoursename() {
+        return coursename;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmailid(String emailid) {
+        this.emailid = emailid;
+    }
+
+    public void setCoursename(String coursename) {
+        this.coursename = coursename;
+    }
 }
