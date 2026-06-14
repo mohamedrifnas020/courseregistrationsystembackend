@@ -10,7 +10,7 @@ services:
       MYSQL_DATABASE: course_reg_sys
 
     ports:
-      - "3306:3306"
+      - "3307:3306"
 
   backend:
     build: .
